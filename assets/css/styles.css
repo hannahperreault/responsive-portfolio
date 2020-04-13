@@ -1,5 +1,14 @@
 
 
- .navbar-brand {
-     font-family: serif;
+ body {
+    font-family: 'Roboto Slab', serif;
+ }
+
+ .card-title {
+    position: absolute;
+    top: 75%;
+    height: 40px;
+    padding: 8px;
+    width: 90%;
+
  }
