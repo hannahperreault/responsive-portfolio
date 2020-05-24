@@ -1,18 +1,20 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
 
-
- body {
-    font-family: 'Roboto Slab', serif;
- }
-
- .card-title {
-    position: absolute;
-    top: 75%;
-    height: 40px;
-    padding: 8px;
-    width: 90%;
-
- }
+.card-title {
+  position: absolute;
+  top: 75%;
+  height: 40px;
+  padding: 8px;
+  width: 90%;
+}
 
 .card {
-     margin: 5px;
- }
+  margin: 5px;
+}
+
+/* .image {
+  width: 300px;
+  height: 300px;
+} */
