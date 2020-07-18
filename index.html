@@ -4,52 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="header">
-      <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="box">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <!--navbar-->
+        <ul class="nav">
+          <li class="nav-item justify-content-end">
+            <a class="nav-link active" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <h1 id="hero-header">Hannah Perreault</h1>
+        <div id="hero-text">
+          <p>Full Stack Web Developer based in Portsmouth, NH.</p>
+          <p>
+            <a class ="white-link" href="https://drive.google.com/file/d/1TfuUPZbUb9L-yJf5Cavuha_fafgMKHaz/view?usp=sharing">
+              Resume</a> 
+              Email
+          </p>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <polygon fill="white" points="0,100 100,0 100,100" />
+        </svg>
       </div>
-      
-      <!--navbar-->
-      <ul class="nav">
-        <li class="nav-item justify-content-end">
-          <a class="nav-link active" href="#">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <h1 id="hero-header">Hannah Perreault</h1>
-      <div id="hero-text">
-        <p>Full Stack Web Developer based in Portsmouth, NH.</p>
-        <p><a href ="https://drive.google.com/file/d/1TfuUPZbUb9L-yJf5Cavuha_fafgMKHaz/view?usp=sharing">
-          Resume</a>Email</p>
-      </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-      >
-        <polygon fill="white" points="0,100 100,0 100,100" />
-      </svg>
-    </div> 
-  </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -63,16 +72,21 @@
           <img class="portfolio-photo" src="assets/images/foodguru.png" />
         </div>
         <div class="col-md-4 portfolio-text">
-          <h3 id="section-header">Food Guru</h3>
+          <a href="https://baroque-vin-00893.herokuapp.com/">
+            <h3 class="section-header">Food Guru</h3>
+          </a>
           <p>
             Food Guru is an application designed to search, store, and organize
-            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
-            your scientists were so preoccupied with whether or not they could,
-            they didn't stop to think if they should. Hey, take a look at the
-            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
-            talented young man, with your own clever thoughts and ideas. Do you
-            need a manager?
+            recipes. This team project was a collaboration.
           </p>
+
+          <p>
+            My role was the overall design of the site as well all styling via
+            CSS and Bootstrap. I worked closely with other teammates to make
+            sure the design flowed alongside the API calls and returned data.
+          </p>
+          <hr />
+          <p class="work-details-text">HTML/CSS, Design</p>
         </div>
       </div>
 
@@ -80,19 +94,21 @@
 
       <div class="row split-photo-right">
         <div class="col-md-4 portfolio-text">
-          <h3 id="section-header">Food Guru</h3>
+          <a href="https://fleshborne.github.io/Blue-Skies/">
+            <h3 class="section-header">Blue Skies</h3>
+          </a>
           <p>
-            Food Guru is an application designed to search, store, and organize
-            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
-            your scientists were so preoccupied with whether or not they could,
-            they didn't stop to think if they should. Hey, take a look at the
-            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
-            talented young man, with your own clever thoughts and ideas. Do you
-            need a manager?
+            Blue Skies is National Parks info and weather application. It is a
+            team project designed to provide the user with local weather for
+            selected parks.
           </p>
-          <hr>
-          <p class="work-details-text">HTML/CSS, Design</p>
-
+          <p>
+            My role in this project was overall layout structure, integrating
+            API calls with local storage, and a designated Favorites page of
+            user-saved parks.
+          </p>
+          <hr />
+          <p class="work-details-text">HTML/CSS, Design, Back End API routes</p>
         </div>
         <div class="col-md-8">
           <img class="portfolio-photo" src="assets/images/blueskies.png" />
@@ -103,24 +119,24 @@
 
       <div class="row split-photo-left">
         <div class="col-md-8">
-          <img class= "portfolio-photo" src="assets/images/scheduler.png" />
+          <img class="portfolio-photo" src="assets/images/scheduler.png" />
         </div>
         <div class="col-md-4 portfolio-text">
-          <h3 id="section-header">Food Guru</h3>
+          <a href=" https://hannahperreault.github.io/work-day-scheduler/">
+            <h3 class="section-header">Work Day Scheduler</h3>
+          </a>
           <p>
-            Food Guru is an application designed to search, store, and organize
-            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
-            your scientists were so preoccupied with whether or not they could,
-            they didn't stop to think if they should. Hey, take a look at the
-            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
-            talented young man, with your own clever thoughts and ideas. Do you
-            need a manager?
+            This application is a work day scheduler. The user is able to create
+            future events, saved within the alloted time field.
           </p>
-          <hr>
-          <p class="work-details-text">HTML/CSS, Design</p>
+          <p>
+            This was a solo project, all code written by myself. CSS used the
+            Bootstrap framework.
+          </p>
+          <hr />
+          <p class="work-details-text">solo project</p>
         </div>
       </div>
-
 
       <!--ABOUT section-->
       <div id="about">
@@ -135,62 +151,70 @@
               <img id="hannah-photo" src="assets/images/Hannah.jpeg" />
             </div>
             <div class="col-md-5">
-              <h3 id="section-header">Food Guru</h3>
-              <p>
-                Jaguar shark! So tell me - does it really exist? Yeah, but your
-                scientists were so preoccupied with whether or not they could,
-                they didn't stop to think if they should. Hey, take a look at
-                the earthlings. Goodbye! Yes, Yes, without the oops! You're a
-                very talented young man, with your own clever thoughts and
-                ideas. 
-              </br> </br> Do you need a manager? I gave it a cold? I gave it a
-                virus. A computer virus. Must go faster. Jaguar shark! So tell
-                me - does it really exist? God help us, we're in the hands of
-                engineers. Yeah, but your scientists were so preoccupied with
-                whether or not they could, they didn't stop to think if they
-                should.
+              <h3 id="section-header"></h3>
+              <p class="portfolio-text">
+                Hannah is studying with the UNH Coding Bootcamp. She enjoys
+                learning new skills for an evolving career path. She currently
+                works as the Head of Customer Experience at a local distribution
+                company.
               </p>
-    
+              <p class="portfolio-text">
+                Current focus of study and interests are Front End Development and
+                Design.
+              </p>
             </div>
             <div class="col-md-2"></div>
           </div>
         </div>
       </div>
 
-
-   <!--QUOTE section-->
+      <!--QUOTE section-->
       <div id="quote-div">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <h1 id="quote-text">
+              No problem can withstand the assault of sustained thinking. <br> - Voltaire
+            </h1>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+
+      <!--CONTACT section-->
+      <div id="contact-div">
           <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
-              <h1 id="quote-text">Must go faster. God help us, we're in the hands of engineers. Must go faster.</h1>
+              <h1 id="contact-header">Contact</h1>
+              <ul id="contact-list">
+                <li><a href="#">Email</a></li>
+                <li>
+                  <a href="https://www.linkedin.com/in/hannah-perreault"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li><a href="https://github.com/hannahperreault">GitHub</a></li>
+              </ul>
             </div>
             <div class="col-md-4"></div>
           </div>
       </div>
-
-  <!--CONTACT section-->
-  <div id="contact-div">
-    <div class="row">
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <h1 id="contact-header">Contact</h1>
-          <ul id="contact-list">
-            <li><a href="https://github.com/hannahperreault">Email</a></li>
-            <li><a href="https://www.linkedin.com/in/hannah-perreault">LinkedIn</a></li>
-            <li><a href = "https://github.com/hannahperreault">GitHub</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
     </div>
-  </div>
-
-  </DIV>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

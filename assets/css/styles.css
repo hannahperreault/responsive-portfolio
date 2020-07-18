@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+/*css for animated background cited from: https://www.youtube.com/watch?v=qx7pSLjLNQA @"Divinector" */
 .wrapper {
   position: relative;
   width: 100%;
@@ -118,8 +119,7 @@ svg {
 
 #portfolio-header {
   text-align: center;
-  color: #2d7dd2;
-}
+  color: rgb(122, 209, 238);}
 
 .split-photo-left {
   margin: 10px;
@@ -135,8 +135,12 @@ svg {
   border: 1px solid rgb(207, 206, 206);
 }
 
+.section-header {
+  color: rgb(122, 209, 238);
+}
 .portfolio-text {
   text-justify: left;
+  color: gray;
 }
 
 .work-details-text {
@@ -165,16 +169,20 @@ svg {
 #quote-text {
   color: white;
   text-align: center;
-  padding: 20px;
+  top: 50%;
   margin: 50px;
   line-height: 50px;
 }
 
 #contact-header {
-  text-align: center;
+  text-align:  center;
 }
 
 #contact-list {
   list-style: none;
   text-align: center;
+}
+
+.white-link {
+  color: white;
 }
