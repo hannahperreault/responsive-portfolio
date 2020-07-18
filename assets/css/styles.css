@@ -9,7 +9,7 @@ body {
   width: 100%;
   height: 400px;
   overflow: hidden;
-  background-image: linear-gradient(#ffd5b5, #ffccc9);
+  background-image: linear-gradient(#ffd5b5, #d6938f);
 }
 
 .box div {
@@ -123,12 +123,12 @@ svg {
 
 .split-photo-left {
   margin: 10px;
-  margin-bottom: 90px;
+  margin-bottom: 130px;
 }
 
 .split-photo-right {
   margin: 10px;
-  margin-bottom: 90px;
+  margin-bottom: 130px;
 }
 .portfolio-photo {
   max-width: 600px;
@@ -150,11 +150,15 @@ svg {
 #about {
   height: 400px;
   margin-top: 60px;
-  background-color: #f1ddd4;
+  background-color: #ffefe8;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
 
+#about-header {
+  color: grey;
+  text-align: center;
+}
 #hannah-photo {
   max-width: 200px;
 }
