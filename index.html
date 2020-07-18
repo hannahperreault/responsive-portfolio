@@ -3,144 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <title>Hannah's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="./styles.css" />
   </head>
-
   <body>
+    
     <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand bg-info text-white" href="index.html"
-              >Hannah Perreault</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+      <!--navbar-->
+      <ul class="nav">
+        <li class="nav-item justify-content-end">
+          <a class="nav-link active" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <h1 id="hero-header">Hannah Perreault</h1>
+      <div id="hero-text">
+        <p>Full Stack Web Developer based in Portsmouth, NH.</p>
+        <p><a href ="https://drive.google.com/file/d/1TfuUPZbUb9L-yJf5Cavuha_fafgMKHaz/view?usp=sharing">
+          Resume</a>Email</p>
       </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <polygon fill="white" points="0,100 100,0 100,100" />
+      </svg>
     </header>
 
-    <div class="container p-3 mb-2 bg-secondary">
-      <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="portfolio-header">Work</h1>
+        </div>
+      </div>
+
+      <!--first section, first featured work with photo on LEFT side-->
+      <div class="row split-photo-left">
+        <div class="col-md-8">
+          <img src="http://placekitten.com/600/400" />
+        </div>
+        <div class="col-md-4 portfolio-text">
+          <h3 id="section-header">Food Guru</h3>
+          <p>
+            Food Guru is an application designed to search, store, and organize
+            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
+            your scientists were so preoccupied with whether or not they could,
+            they didn't stop to think if they should. Hey, take a look at the
+            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
+            talented young man, with your own clever thoughts and ideas. Do you
+            need a manager?
+          </p>
+        </div>
+      </div>
+
+      <!--second section, first featured work with photo on RIGHT side-->
+
+      <div class="row split-photo-right">
+        <div class="col-md-4 portfolio-text">
+          <h3 id="section-header">Food Guru</h3>
+          <p>
+            Food Guru is an application designed to search, store, and organize
+            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
+            your scientists were so preoccupied with whether or not they could,
+            they didn't stop to think if they should. Hey, take a look at the
+            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
+            talented young man, with your own clever thoughts and ideas. Do you
+            need a manager?
+          </p>
+          <hr>
+          <p class="work-details-text">HTML/CSS, Design</p>
+
+        </div>
+        <div class="col-md-8">
+          <img src="http://placekitten.com/600/400" />
+        </div>
+      </div>
+
+      <div class="row split-photo-left">
+        <div class="col-md-8">
+          <img src="http://placekitten.com/600/400" />
+        </div>
+        <div class="col-md-4 portfolio-text">
+          <h3 id="section-header">Food Guru</h3>
+          <p>
+            Food Guru is an application designed to search, store, and organize
+            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
+            your scientists were so preoccupied with whether or not they could,
+            they didn't stop to think if they should. Hey, take a look at the
+            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
+            talented young man, with your own clever thoughts and ideas. Do you
+            need a manager?
+          </p>
+          <hr>
+          <p class="work-details-text">HTML/CSS, Design</p>
+        </div>
+      </div>
+
+      <div class="row split-photo-right">
+        <div class="col-md-4 portfolio-text">
+          <h3 id="section-header">Food Guru</h3>
+          <p>
+            Food Guru is an application designed to search, store, and organize
+            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
+            your scientists were so preoccupied with whether or not they could,
+            they didn't stop to think if they should. Hey, take a look at the
+            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
+            talented young man, with your own clever thoughts and ideas. Do you
+            need a manager?
+          </p>
+          <hr>
+          <p class="work-details-text">HTML/CSS, Design</p>
+
+        </div>
+        <div class="col-md-8">
+          <img src="http://placekitten.com/600/400" />
+        </div>
+      </div>
+
+      <!--ABOUT section-->
+      <div id="about">
         <div class="row">
-          <div class="col-md-12 bg-white">
-            <h1 class="text-info">About Me</h1>
-            <hr />
+          <div class="col-md-12">
+            <h1 id="portfolio-header">About</h1>
+          </div>
+          <div class="row about-section">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-3 portfolio-text">
+              <img src="http://placekitten.com/300/200" />
+            </div>
+            <div class="col-md-5">
+              <h3 id="section-header">Food Guru</h3>
+              <p>
+                Jaguar shark! So tell me - does it really exist? Yeah, but your
+                scientists were so preoccupied with whether or not they could,
+                they didn't stop to think if they should. Hey, take a look at
+                the earthlings. Goodbye! Yes, Yes, without the oops! You're a
+                very talented young man, with your own clever thoughts and
+                ideas. 
+              </br> </br> Do you need a manager? I gave it a cold? I gave it a
+                virus. A computer virus. Must go faster. Jaguar shark! So tell
+                me - does it really exist? God help us, we're in the hands of
+                engineers. Yeah, but your scientists were so preoccupied with
+                whether or not they could, they didn't stop to think if they
+                should.
+              </p>
+    
+            </div>
+            <div class="col-md-2"></div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-7 bg-white">
-            <div class="card border-0 mb-3">
-              <div class="row no-gutters card-body text-dark">
-                <div class="col-sm-12 col-md-4">
-                  <img
-                    src="assets/images/Hannah.jpeg"
-                    class="card-img"
-                    alt="Hannah Profile"
-                  />
-                </div>
-                <div class="col-sm-12 col-md-8">
-                  <p class="card-text p-3 mb-2">
-                    Hannah is studying with the UNH Coding Bootcamp. She enjoys
-                    learning new skills for an evolving career path. She
-                    currently works as the Head of Customer Experience at a
-                    local distribution company. 
-                  </p>
-                </div>
-              </div>
+      </div>
+
+
+   <!--QUOTE section-->
+      <div id="quote-div">
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <h1 id="quote-text">Must go faster. God help us, we're in the hands of engineers. Must go faster.</h1>
             </div>
+            <div class="col-md-4"></div>
           </div>
-          <div class="col-md-5 bg-white">
-            <div class="card border-0 mb-3">
-              <div class="row no-gutters card-body text-dark">
-                <!-- <div class="col-sm-12 col-md-4">
-                  <img
-                    src="assets/images/Hannah.jpeg"
-                    class="card-img"
-                    alt="Hannah Profile"
-                  />
-                </div> -->
-                <div class="col-sm-12 col-md-8">
-                  <p class="card-text p-3 mb-2">
-                      Links
-                <ul>
-                    <li>
-                        <a href = "https://github.com/hannahperreault">
-                        GitHub                        </a>
-                    </li>
-                    <li>
-                        <a href = "https://www.linkedin.com/in/hannah-perreault/">
-                        LinkedIn                        </a>
-                    </li>
-                    <li>
-                        <a href = "https://drive.google.com/file/d/1TfuUPZbUb9L-yJf5Cavuha_fafgMKHaz/view?usp=sharing">
-                        Resume                        </a>
-                    </li>
-                </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      </div>
+
+  <!--CONTACT section-->
+  <div id="contact-div">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h1 id="contact-header">Contact</h1>
+          <ul id="contact-list">
+            <li><a href="https://github.com/hannahperreault">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/hannah-perreault">LinkedIn</a></li>
+            <li><a href = "https://github.com/hannahperreault">GitHub</a>
+            </li>
+          </ul>
         </div>
+        <div class="col-md-4"></div>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <nav class="navbar navbar-light bg-info">
-          <span class="navbar-brand mb-0 h1"></span>
-        </nav>
-      </div>
-    </footer>
+  </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
