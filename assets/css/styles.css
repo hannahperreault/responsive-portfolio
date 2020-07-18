@@ -119,7 +119,8 @@ svg {
 
 #portfolio-header {
   text-align: center;
-  color: rgb(122, 209, 238);}
+  color: #d6938f;
+}
 
 .split-photo-left {
   margin: 10px;
@@ -166,6 +167,7 @@ svg {
 #quote-div {
   height: 400px;
   background-color: #3f3947;
+  color: #ffefe8;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }
@@ -179,7 +181,8 @@ svg {
 }
 
 #contact-header {
-  text-align:  center;
+  text-align: center;
+  color: #d6938f;
 }
 
 #contact-list {
