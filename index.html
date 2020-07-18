@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css"/>
   </head>
   <body>
-    
-    <header>
+    <div class="wrapper">
+      <div class="header">
+      <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      
       <!--navbar-->
       <ul class="nav">
         <li class="nav-item justify-content-end">
@@ -34,8 +48,8 @@
       >
         <polygon fill="white" points="0,100 100,0 100,100" />
       </svg>
-    </header>
-
+    </div> 
+  </div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -43,10 +57,10 @@
         </div>
       </div>
 
-      <!--first section, first featured work with photo on LEFT side-->
+      <!--first section, FOOD GURU, with photo on LEFT side-->
       <div class="row split-photo-left">
         <div class="col-md-8">
-          <img src="http://placekitten.com/600/400" />
+          <img class="portfolio-photo" src="assets/images/foodguru.png" />
         </div>
         <div class="col-md-4 portfolio-text">
           <h3 id="section-header">Food Guru</h3>
@@ -62,7 +76,7 @@
         </div>
       </div>
 
-      <!--second section, first featured work with photo on RIGHT side-->
+      <!--second section, BLUESKIES,  with photo on RIGHT side-->
 
       <div class="row split-photo-right">
         <div class="col-md-4 portfolio-text">
@@ -81,13 +95,15 @@
 
         </div>
         <div class="col-md-8">
-          <img src="http://placekitten.com/600/400" />
+          <img class="portfolio-photo" src="assets/images/blueskies.png" />
         </div>
       </div>
+
+      <!--third section, SCHEDULAR,  with photo on LEFT side-->
 
       <div class="row split-photo-left">
         <div class="col-md-8">
-          <img src="http://placekitten.com/600/400" />
+          <img class= "portfolio-photo" src="assets/images/scheduler.png" />
         </div>
         <div class="col-md-4 portfolio-text">
           <h3 id="section-header">Food Guru</h3>
@@ -105,26 +121,6 @@
         </div>
       </div>
 
-      <div class="row split-photo-right">
-        <div class="col-md-4 portfolio-text">
-          <h3 id="section-header">Food Guru</h3>
-          <p>
-            Food Guru is an application designed to search, store, and organize
-            recipes. Jaguar shark! So tell me - does it really exist? Yeah, but
-            your scientists were so preoccupied with whether or not they could,
-            they didn't stop to think if they should. Hey, take a look at the
-            earthlings. Goodbye! Yes, Yes, without the oops! You're a very
-            talented young man, with your own clever thoughts and ideas. Do you
-            need a manager?
-          </p>
-          <hr>
-          <p class="work-details-text">HTML/CSS, Design</p>
-
-        </div>
-        <div class="col-md-8">
-          <img src="http://placekitten.com/600/400" />
-        </div>
-      </div>
 
       <!--ABOUT section-->
       <div id="about">
@@ -136,7 +132,7 @@
             <div class="col-md-2"></div>
 
             <div class="col-md-3 portfolio-text">
-              <img src="http://placekitten.com/300/200" />
+              <img id="hannah-photo" src="assets/images/Hannah.jpeg" />
             </div>
             <div class="col-md-5">
               <h3 id="section-header">Food Guru</h3>
@@ -192,9 +188,9 @@
     </div>
   </div>
 
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+  </DIV>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>

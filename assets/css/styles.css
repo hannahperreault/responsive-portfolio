@@ -1,20 +1,180 @@
 body {
-  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
 }
 
-.card-title {
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-image: linear-gradient(#ffd5b5, #ffccc9);
+}
+
+.box div {
   position: absolute;
-  top: 75%;
-  height: 40px;
-  padding: 8px;
-  width: 90%;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 4px solid rgba(255, 255, 255, 0.8);
 }
 
-.card {
-  margin: 5px;
+.box div:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(2) {
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3) {
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
 }
 
-/* .image {
-  width: 300px;
-  height: 300px;
+.box div:nth-child(4) {
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+.box div:nth-child(5) {
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+}
+.box div:nth-child(6) {
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+.box div:nth-child(7) {
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+.box div:nth-child(8) {
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+.box div:nth-child(9) {
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+.box div:nth-child(10) {
+  top: 20%;
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/*-----------------------------*/
+
+/* .header {
+  position: relative;
+  height: 500px;
+  background-image: linear-gradient(#ffd5b5, #ffccc9);
 } */
+
+#hero-header {
+  padding: 100px 0 50px 20px;
+  font: 44px 'Arial';
+  text-align: left;
+  color: white;
+}
+
+#hero-text {
+  font: 24px 'Arial';
+  color: white;
+  padding-left: 20px;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.nav-link {
+  color: white;
+  justify-content: end;
+}
+
+#portfolio-header {
+  text-align: center;
+  color: #2d7dd2;
+}
+
+.split-photo-left {
+  margin: 10px;
+  margin-bottom: 90px;
+}
+
+.split-photo-right {
+  margin: 10px;
+  margin-bottom: 90px;
+}
+.portfolio-photo {
+  max-width: 600px;
+  border: 1px solid rgb(207, 206, 206);
+}
+
+.portfolio-text {
+  text-justify: left;
+}
+
+.work-details-text {
+  font-style: italic;
+}
+
+#about {
+  height: 400px;
+  margin-top: 60px;
+  background-color: #f1ddd4;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+#hannah-photo {
+  max-width: 200px;
+}
+
+#quote-div {
+  height: 400px;
+  background-color: #3f3947;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+#quote-text {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
+  line-height: 50px;
+}
+
+#contact-header {
+  text-align: center;
+}
+
+#contact-list {
+  list-style: none;
+  text-align: center;
+}
